@@ -1,36 +1,19 @@
-# Bhoom Tech
+# Arduino WiFi webserver
 
-bhoomtech.kheiden.com
+This python code is used to generate Arduino code which can be deployed on an Arduino Uno R4 Wifi.
 
-## Table of Contents
 
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## Prerequisites
 
-## Description
+Run `pip3 install -r requirements.txt` in your python environment of choice.
 
-Provide a detailed description of the project, including its purpose, functionality, and any relevant background information.
+Copy `.env.template` to `.env` and update the environment variable to match your Wifi
+SSID and password.
 
-## Features
-
-List the main features of the website deployed on the Arduino Uno R4 Wifi.
-
-## Installation
-
-Provide step-by-step instructions on how to install and set up the website on the Arduino Uno R4 Wifi. Include any dependencies or libraries that need to be installed.
+Make HTML updates to `create_source/input_html/index.html`
 
 ## Usage
 
-Explain how to use the website once it is deployed on the Arduino Uno R4 Wifi. Include any necessary configuration or setup instructions.
+Run `python3 main.py`
 
-## Contributing
-
-Specify how others can contribute to the project, such as reporting issues or submitting pull requests. Include guidelines for code style, testing, and documentation.
-
-## License
-
-Indicate the license under which the project is distributed. For example, you can use the MIT License, Apache License, or any other open-source license.
+Upload the directory `ArduinoCode` to the Arduino.
