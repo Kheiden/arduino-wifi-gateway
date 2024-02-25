@@ -1,3 +1,2 @@
-output_source/ArduinoCode/*.ino
 output_source/ArduinoCode/*.h
 .env
