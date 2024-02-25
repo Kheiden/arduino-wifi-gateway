@@ -10,7 +10,7 @@ Run `pip3 install -r requirements.txt` in your python environment of choice.
 Copy `.env.template` to `.env` and update the environment variable to match your Wifi
 SSID and password.
 
-Make HTML updates to `input_html/index.html`
+Make HTML updates to `create_source/index.html`
 
 ## Usage
 
