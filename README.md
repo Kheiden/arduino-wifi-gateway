@@ -5,6 +5,8 @@ This python code is used to generate Arduino code which can be deployed on an Ar
 
 ## Prerequisites
 
+This has been tested on a [Arduino® UNO R4 WiFi](https://store.arduino.cc/products/uno-r4-wifi). It may work on other Arduinos which have WiFi capabilities.
+
 Run `pip3 install -r requirements.txt` in your python environment of choice.
 
 Copy `.env.template` to `.env` and update the environment variable to match your Wifi
